@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 180;
+  color: #333e48;
+}
+
+header {
+  margin: 0;
+  background-color: rgb(0, 191, 111);
+  padding: 0.8rem;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+.survey h4 {
+  color: rgb(0, 191, 111);
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.survey p {
+  padding-left: 2.8rem;
+  padding-bottom: .6rem;
+  padding-top: .3rem;
+  width: 40%;
+}
+
+.survey p:hover {
+  border-radius: .25rem;
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.container{
+  margin: 4rem 5rem;
+}
+
+input[type=checkbox]{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.8); /* IE */
+  -moz-transform: scale(1.8); /* FF */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+  -o-transform: scale(1.8); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext{
+  font-size: 110%;
+  display: inline;
+}
+
+.done button {
+  cursor: pointer;
+  background-color: #00bf6f;
+  color: white;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 15px 25px;
+  border-radius: .15rem;
+  font-weight: 200;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+  font-size: .9rem;
+}
+
+.done {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.done button:hover {
+  transition: .3s;
+  background-color: rgb(1, 178, 104);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2) inset;
+}
+
+.seperator{
+  width: 30%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.survey{
+  display: grid;
+}
